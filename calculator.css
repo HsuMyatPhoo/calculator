@@ -1,0 +1,151 @@
+body{
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    padding:0;
+}
+
+form{
+    width:24%;
+    background-color: aqua;
+    /* background-color: skyblue; */
+     /* background-color: #444; */
+    box-shadow:-5px -5px 15px #444;
+
+    border-radius:25px;
+    
+}
+
+
+
+/* Date & time  */
+.header{
+    width:76%;
+    font-size:20px;
+    margin-left:12%;
+    padding:20px 0px;
+
+    display:flex;
+    justify-content:space-between;
+    cursor: pointer;
+    
+}
+.datetime{
+    color:#fff;
+    /* background-color:black; */
+    background-color: darkred;
+    padding:3px 7px;
+    border-radius:5px;
+}
+.day{
+    color:#fff;
+    /* background-color: #fff; */
+    background-color: darkred;
+    padding:3px 7px;
+    border-radius:5px;
+}
+
+
+/* screen  */
+.display{
+    width:86%;
+    height:86px;
+    color:white;
+    /* background-color:#222; */
+    background-color: palevioletred;
+    
+     /* background-color:#dde1e7; */
+    /* border:4px inset #555; */
+
+   /* box-shadow: inset 5px 5px 9px rgba(255,255,255,0.45), inset -5px -5px 9px rgba(94,104,121,0.3);; */
+    /* box-shadow:outset 5px -5px 5px #333,outset -5px 5px 5px #444; */
+
+    font-size: 23px;
+    line-height:30px;
+    margin-left:7%;
+
+
+    border-radius:15px;
+}
+.num{
+    display:block;
+    padding-top:10px;
+    /* color:red; */
+    /* background-color: rgb(60, 207, 24); */
+    border-radius:15px;
+
+    float:right;
+    margin-right: 10px;
+}
+.result{
+    clear: both;
+    display:block;
+    /* width:100px; */
+    height:35px;
+    /* color:red; */
+    /* background-color: blueviolet; */
+    border-radius:15px;
+
+    float:right;
+    margin-right: 10px;
+}
+
+
+
+/* button  */
+.numbers{
+    clear: both;
+    width:96%;
+    /* background-color: antiquewhite; */
+    margin-top:20px;
+    margin-left:2%;
+    padding-bottom:10px;
+
+    
+}
+.numbers button{
+    width:55px;
+    height:50px;
+    font-size:23px;
+    padding:5px;
+
+    border:none;
+    /* border:2px double black; */
+    box-shadow:-4px -4px 7px #222;
+    border-radius: 100%;
+
+    cursor: pointer;
+    transition:0.05s;
+}
+
+button:active{
+    transform:translateY(2px);
+	box-shadow:-4px -4px 7px #222;
+}
+
+.btn{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+
+
+.cal,.del,.ac{
+    font-weight: bolder;
+    /* color:palevioletred; */
+    color:#f00a97;
+}
+
+
+.answ{
+    background-color:#f00a97;
+    color:aqua;
+}
+
+
+
